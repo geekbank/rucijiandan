@@ -100,7 +100,7 @@ div{display: block;}
   position: absolute;
   background: #fff;
 }
-.line.-right, .line.-left {
+.line.-right .line.-left {
   width: 1px;
   bottom: -1px;
   top: -1px;
