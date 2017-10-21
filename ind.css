@@ -7,6 +7,12 @@ div{display: block;}
     margin-left: -960px;
     width: 1920px;
     height: 814px;}
+  .actGotop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 500;
+  }
   .banner{
     position: relative;
     margin: 0 auto;
@@ -90,7 +96,6 @@ div{display: block;}
   transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
   transform-origin: left;
 }
-
 .line {
   position: absolute;
   background: #fff;
@@ -127,7 +132,6 @@ div{display: block;}
   transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
   transform-origin: right;
 }
-
 #about:hover .text,
 #about:active .text {
   transform: translate3d(0, 0, 0);
