@@ -213,13 +213,13 @@ p{
     text-align: center;
   }
 .box_3{
-    position: relative;
     z-index: -2;
     height: 825px;
     margin-top: 50px;
-    background-image: linear-gradient(-131deg, #0089CE 0%, #3DBDB6 100%);}
+    background-image: linear-gradient(-131deg, #0089CE 0%, #3DBDB6 100%);
+  }
 .box_3_body{
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
     }
 .box_3_h3{
@@ -234,10 +234,12 @@ p{
     margin-top: -75px;
 }
 .shixiang{
+    position: relative;
     float: left;
     width: 400px;
-    margin-left: 200px;
-    margin-top: 100px;}
+    left: 100px;
+    margin-top: 100px;
+  }
 h4{
     font-size: 22px;
     color: #FFFFFF;
@@ -255,7 +257,6 @@ h4{
     font-weight: 100;
 }
 .smallbg{
-    position: absolute;
     z-index: -1;
     margin-left: -50px;
     margin-top: -134px;
@@ -266,9 +267,10 @@ h4{
     border-radius: 3px;
 }
 .box_3_right{
+    position: relative;
     float: right;
     margin-top: 87px;
-    margin-right: 150px;
+    right: 50px;
 }
 .box_4_body{
     width: 1200px;
@@ -481,8 +483,12 @@ h5{
     background-color: #E6EFFA;
     position: relative;
 }
+.foot_body{
+    width: 1200px;
+    margin: 0 auto;
+}
 .foot_logo{
-    position: absolute;
+    position: relative;
     left: 50%;
     margin-left: -10px;
     top: 26px;
@@ -490,8 +496,8 @@ h5{
     height: 34px;
 }
 .foot_h{
-    position: absolute;
-    top: 53px;
+    position: relative;
+    top: 20px;
     width: 100%;
     text-align: center;
     font-size: 18px;
@@ -500,7 +506,7 @@ h5{
 }
 .foot_p{
     position: relative;
-    top: 100px;
+    top: 20px;
     font-size: 12px;
     color: #2A4560;
     letter-spacing: 0;
