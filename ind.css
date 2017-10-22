@@ -417,7 +417,7 @@ h5{
 .people_2_bg{
     position: relative;
     top: -70px;
-    left: -80px;
+    left: -50px;
     z-index: -2;
 }
 .people_2_body{
@@ -428,7 +428,7 @@ h5{
 .people_2_touxiang{
     position: absolute;
     z-index: 100;
-    left: -20px;
+    left: 12px;
     width: 87px;
     height: 87px;
 }
@@ -441,10 +441,16 @@ h5{
     position: relative;
     top: 146px;
 }
+.people_3_bg{
+    position: relative;
+    top: -30px;
+    left: -10px;
+    z-index: -2;
+}
 .people_3_touxiang{
     position: relative;
-    top: 110px;
-    left: 20px;
+    top: 80px;
+    left: 15px;
     width: 87px;
     height: 87px;
 }
@@ -455,13 +461,13 @@ h5{
 }
 .line_2{
     position: relative;
-    left: -18px;
-    top: 110px;
+    left: 13px;
+    top: 120px;
 }
 .line_3{
     position: relative;
-    left: 53px;
-    top: 145px;
+    left: 43px;
+    top: 115px;
 }
 .box6_huanxiao{
     position: relative;
