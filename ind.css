@@ -1,16 +1,17 @@
-body{margin: 0;padding: 0;text-align:left;}
+body{margin: 0 auto;padding: 0;text-align:left;}
 div{display: block;}
 input, select, textarea ,a,h1,h2,h3,h4,h5,h6,p,span{
     font-weight: 100;
     font-family: "pingfang SC","Lantinghei SC", "Microsoft Yahei", '微软雅黑', "SimSun"
 }
   /*banner*/
+
   video#bgvid{
-    position: absolute;
-    left: 50%;
-    margin-left: -960px;
-    width: 1920px;
-    height: 814px;}
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: -500;
+  }
   .actGotop{
     position: fixed;
     right: 20px;
@@ -30,7 +31,7 @@ input, select, textarea ,a,h1,h2,h3,h4,h5,h6,p,span{
     color: #fff;
     font-weight: 300;}
   .banner_font2{
-    margin-top:356px; 
+    margin-top:370px; 
     width: 100%;
     text-align: center; 
     font-size: 34px;
@@ -43,34 +44,30 @@ input, select, textarea ,a,h1,h2,h3,h4,h5,h6,p,span{
   .logoimg{
     position: absolute; 
     width: 50px;
-    height: 50px;}
+    height: 50px;
+  }
   .logo_name{
     position:static;
     margin-left: 65px;
     margin-top: 16px; 
     font-size: 24px;
     color: #fff;
-    font-weight: 300;}
-  .withmy{
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 1000px; 
-    font-size: 20px;
-    color: #fff;
-    font-weight: 300;}
+    font-weight: 300;
+  }
   .download{
     position:absolute;
     border: 0px;
-    top:510px;
+    top:530px;
     left: 50%;
     margin-left: -85px; 
     background: url(img/down_btn.png)no-repeat 0;
     width: 170px;
-    height: 45px;}
+    height: 45px;
+  }
   .download:hover{
     position:absolute;
     border: 0px;
-    top:510px;
+    top:530px;
     left: 50%;
     margin-left: -85px; 
     background: url(img/down_btn_hover.png)no-repeat 0;
@@ -141,6 +138,9 @@ input, select, textarea ,a,h1,h2,h3,h4,h5,h6,p,span{
   transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
 }
 /*关于我们效果结束*/
+.box_1{
+     background-color: #fff;
+}
 .box_1_body{
      width:1200px;
      height: 680px;
@@ -175,11 +175,20 @@ input, select, textarea ,a,h1,h2,h3,h4,h5,h6,p,span{
      line-height: 35px;
      font-weight: 300
    }
-.box_2{width: 1200px;margin: 0 auto;}
-h2{
+.box_2{
+    background-color: #fff;
+}
+.box_2_body{
+    position: relative;
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+  }
+h2{ 
+    position: relative;
+    margin-top: 0px;
     font-size: 38px;
     color: #333;
-    line-height: 50px;
     font-weight: 300;
     text-align: center;
   }
@@ -198,7 +207,7 @@ li{
     width: 350px;
     height: auto; 
   }
-h3{
+h3{ 
     font-size: 18px;
     color: #333;
     line-height: 20px;
@@ -213,9 +222,9 @@ p{
     text-align: center;
   }
 .box_3{
+    position: relative;
     z-index: -2;
     height: 825px;
-    margin-top: 50px;
     background-image: linear-gradient(-131deg, #0089CE 0%, #3DBDB6 100%);
   }
 .box_3_body{
@@ -223,6 +232,7 @@ p{
     margin: 0 auto;
     }
 .box_3_h3{
+    margin-top: 0px;
     color: #fff;
     text-align: center;
     line-height: 180px;
@@ -272,6 +282,9 @@ h4{
     margin-top: 87px;
     right: 50px;
 }
+.box_4{
+    background-color: #fff;
+}
 .box_4_body{
     width: 1200px;
     height: 500px;
@@ -312,9 +325,12 @@ h4{
     letter-spacing: 0;
     line-height: 26px;
 }
+.box_5{
+    background-color: #fff;
+}
 .box_5_body{
     width: 1200px;
-    height: 800px;
+    height: 1000px;
     margin: 0 auto;
 }
 .box_5_left{
@@ -347,50 +363,35 @@ h4{
     font-size: 18px;
     color: #58627C;
 }
+.box_6{
+    position: relative;
+    top: 60px;
+}
 .box_6_body{
     width: 1200px;
     height: 500px;
     margin: 0 auto;
 }
 .box_6_h{
-    margin-top: 120px;
+    position: relative;
     font-size: 34px;
     color: #58627C;
     letter-spacing: 0.6px;
     line-height: 33px;
     font-weight: 300;
 }
-.box_6_img{
-    width: 27px;
-    height: 5px;
-    margin-left: 115px;
-    margin-top: -10px;
-}
+
 .tamenshuo_body{
     position: absolute;
-    height: 426px;
+    top: 100px;
 }
-.people_1_bg{
-    position: relative;
-    top: -60px;
-    left: -20px;
-    z-index: -1;
-}
-.people_1_touxiang{
-    position: absolute;
-    top: -38px;
-    left: 50px;
-    width: 87px;
-    height: 87px;
-}
-h5{
+h5{ 
     position: relative;
     font-size: 16px;
     color: #2F313D;
     line-height: 20px;
     font-weight: 300;
-    top: 92px;
-    left: 35px;
+    top: 2px;
 }
 .p4{
     position: relative;
@@ -399,77 +400,93 @@ h5{
     font-size: 14px;
     color: #787878;
     letter-spacing: 0.54px;
-    line-height: 18px;
-    top: 83px;
-    left: 35px;
+    line-height: 17px;
+    top: -5px;
 }
-.line{
-    position: relative;
-    left: 18px;
-    top: 60px;
+.people_1_touxiang{
+    top: -170px;
+    left: 20px;
+    width: 87px;
+    height: 87px;
 }
+
 .people_1{
+    position: relative;
+    top: 0px;
+    z-index: 100;
+}
+.people_1_body{
+    position: relative;
+    top: 70px;
+    left:20px;
+}
+.people_1_bg{
     position: absolute;
-    z-index: 100;}
+    top: -20px;
+    left: -10px;
+    z-index: -1;
+}
 .people_2{
     position: relative;
     z-index: -200;
-    left: 400px;   
+    left: 15px;   
 }
 .people_2_bg{
     position: relative;
-    top: -70px;
-    left: -50px;
+    top: -110px;
+    left: -40px;
     z-index: -2;
 }
 .people_2_body{
     position: relative;
-    left: -70px;
-    top: 60px;
+    top: 120px;
+    left: -15px;
 }
 .people_2_touxiang{
-    position: absolute;
+    position: relative;
     z-index: 100;
-    left: 12px;
+    top: 20px;
+    left: -6px;
     width: 87px;
     height: 87px;
 }
 .people_3{
     position: relative;
-    left: 450px;
-    top: -10px;
+    left: 120px;
+    top: 50px;
 }
 .people_3_body{
     position: relative;
-    top: 146px;
+    top: 170px;
+    left: 6px;
 }
 .people_3_bg{
     position: relative;
-    top: -30px;
-    left: -10px;
     z-index: -2;
+    top: -60px;
+    left: -30px;
 }
 .people_3_touxiang{
     position: relative;
-    top: 80px;
-    left: 15px;
     width: 87px;
     height: 87px;
+    left: 5px;
+    top: 46px;
 }
 .line_1{
     position: relative;
-    left: 52px;
-    top: -128px;
+    top: 37px;
+    left: 28px;
 }
 .line_2{
     position: relative;
-    left: 13px;
-    top: 120px;
+    top: 63px;
+    left: 23px;
 }
 .line_3{
     position: relative;
-    left: 43px;
-    top: 115px;
+    top: 80px;
+    left: 34px;
 }
 .box6_huanxiao{
     position: relative;
@@ -482,6 +499,7 @@ h5{
     height: 140px;
     background-color: #E6EFFA;
     position: relative;
+    top: 120px;
 }
 .foot_body{
     width: 1200px;
